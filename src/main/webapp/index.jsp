@@ -56,7 +56,7 @@
 				// 3. Not logged into Facebook and can't tell if they are logged into
 				// your app or not.
 				//
-				// These three cases are handled in the callback function.
+				// These three cases are handled in the callback function
 
 				FB.getLoginStatus(function(response) {
 					statusChangeCallback(response);
@@ -89,13 +89,13 @@
 				});
 			}
 		</script>
-				
+
 	<!--
  Below we include the Login Button social plugin. This button uses
  the JavaScript SDK to present a graphical Login button that triggers
  the FB.login() function when clicked.
 -->
-	
+
 	<fb:login-button scope="public_profile,email"
 		onlogin="checkLoginState();">
 	</fb:login-button>
